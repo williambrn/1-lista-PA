@@ -1,2 +1,7 @@
-# 1-lista-PA
-Lista de exercícios do componente curricular Programação Avançada (90h)
+ # Lista de exercícios - Programação avançada
+ 
+ Integrantes:
+
+* Igor Sérgio
+* Thiago Theiry
+

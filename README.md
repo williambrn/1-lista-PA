@@ -1,4 +1,4 @@
- # Lista de exercícios - Programação avançada
+ # Lista de exercícios - Programação Avançada
  
  Integrantes:
 

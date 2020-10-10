@@ -1,0 +1,6 @@
+Será impresso pelo programa supondo que i ocupe o endereço 4094 na memória:
+
+ffe 7 5 15 9
+
+
+Obs: A conversão do endereço de memória 4094 para hexadecimal está no arquivo main.c 

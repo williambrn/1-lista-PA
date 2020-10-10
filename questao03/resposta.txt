@@ -1,0 +1,13 @@
+As seguintes expressões de atribuição são ilegais:
+
+p = i; // p recebe o valor inteiro de i (não está sendo representado como ponteiro) Mesmo o código compilando e rodando no codeblocks há um aviso de conversão de inteiro para ponteiro como incompatível;
+
+i = (*&)j; // O código não compila;
+
+q = *p; // Conversão incompatível de ponteiro para inteiro;
+
+i = (*p)++ + *q;// Falha de segmentação ao executar o código;
+
+
+
+

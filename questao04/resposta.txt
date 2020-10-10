@@ -1,0 +1,62 @@
+(a): Resposta esperada obtida;
+
+"p1" recebe o endereço de memória da variável inteira "valor";
+O conteúdo "p1" recebe o valor inteiro 20, logo a variável inteira "valor" também terá seu valor alterado, já que ambos compartilham do mesmo endereço de memória;
+
+(b): Resposta esperada obtida;
+
+"p2" recebe o endereço de memória da variável float "temp";
+O conteúdo "p2" recebe o valor float 29.0, logo a variável inteira "temp" também terá seu valor alterado, já que ambos compartilham do mesmo endereço de memória;
+
+(c): Resposta esperada obtida;
+
+"p3" recebe o endereço de memória do termo 0 do char "nome";
+O char aux recebe o conteúdo de p3, logo aux recebe o termo 0 do char nome, já que ele possui o mesmo endereço de memória que o ponteiro p3;
+
+(d): Resposta esperada obtida;
+
+"p3" recebe o endereço de memória do termo 4 do char "nome";
+O char aux recebe o conteúdo de p3, logo aux recebe o termo 4 do char nome, já que ele possui o mesmo endereço de memória que o ponteiro p3;
+
+(e): Resposta esperada NÃO obtida:
+"p3" recebe apenas o primeiro caractere do char nome. Não é o método correto para um ponteiro receber toda a string;
+
+(f): Resposta esperada obtida:
+
+"p3" recebe o seu próprio valor + 4, atualizando seu conteúdo para o termo 4 do char nome;
+
+(g): Resposta esperada obtida:
+
+"p3" recebe o seu próprio valor -1, atualizando seu conteúdo para o termo 3 do char nome;
+
+(h): Resposta esperada obtida:
+A variável vetor de tamanho 3 recebe seus respectivos valores para cada termo (0,1,2);
+O ponteiro "p4" recebe o termo 0 inteiro do vetor;
+O inteiro idade recebe o conteúdo do ponteiro "p4", logo o termo 0 do vetor (31) é recebido pela variável idade;
+
+(i): Resposta esperada obtida:
+
+O ponteiro "p5" recebe o ponteiro "p4" + 1, correspondente ao termo 1 do vetor;
+O inteiro idade recebe o conteúdo do ponteiro "p5", logo o termo 1 do vetor (45) é recebido pela variável idade;
+
+(j): Reposta esperada obtida:
+
+O ponteiro "p4" recebe o ponteiro "p5" + 1, correspondente ao termo 2 do vetor;
+O inteiro idade recebe o conteúdo do ponteiro "p4", logo o termo 2 do vetor (27) é recebido pela variável idade;
+
+(l): Resposta esperada obtida:
+
+O ponteiro "p4" recebe seu próprio valor - 2 , correspondente ao termo 0 do vetor;
+O inteiro idade recebe o conteúdo do ponteiro "p4", logo o termo 0 do vetor (31) é recebido pela variável idade;
+
+(m): Resposta esperada obtida:
+
+O ponteiro "p5" recebe o endereço de memória do termo 2 - 1 do inteiro vetor;
+O conteúdo de "p5" é impresso como o termo 1 do inteiro vetor(45);
+
+(n): Resposta esperada obtida:
+
+O ponteiro "p5" recebe seu próprio valor + 1 , correspondente ao termo 2 do vetor;
+O conteúdo de "p5" é impresso como o termo 2 do inteiro vetor (27);
+
+

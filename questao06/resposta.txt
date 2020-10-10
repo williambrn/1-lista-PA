@@ -1,0 +1,16 @@
+Atribuindo variáveis as expressões onde:
+
+As duas primeiras expressões são recebidas por inteiros;
+As duas últimas expressões são recebidas por ponteiros;
+
+A expressão *(pulo + 2) sendo impressa como decimal e a expressão pulo + 2 sendo impressa como decimal (conteúdo do ponteiro) referenciam o valor do terceiro elemento do vetor pulo;
+
+As outras duas expressões referenciam o valor do quinto elemento do vetor pulo;
+
+Porém, sendo utilizada apenas a expressão na função printf, apenas
+ printf("%d", *(pulo + 2)); referencia o valor do terceiro elemento do vetor pulo;
+
+A expressão junta a função: printf("%d", pulo + 2) apresenta problema de conversão entre int e *int;
+
+
+As informações acima podem ser verificadas com mais detalhes observando o main.c prensente na pasta;

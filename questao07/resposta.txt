@@ -1,0 +1,11 @@
+p = mat + 1 é válida e armazena em p o endereço de memória do termo (0 + 1) de mat[4];
+
+p = mat++ não é válida, porque não há como incrementar um ponteiro dessa forma;
+
+p = ++mat, da mesma forma não é válida, não pode ser buildado, porque não se incrementa um ponteiro desse tipo dessa forma;
+
+x = (*mat)++ é válida e armazena em x um valor inteiro, conteúdo do primeiro elemento de mat;
+
+
+
+

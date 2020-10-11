@@ -5,7 +5,7 @@ O laço é utilizado para somar o valor de i e percorrer os elementos do vetor;
 O * pega o conteúdo presente no elemento vet + i do vetor;
 
 
-O segundo código retorna um valor como hexadecimal em uppercasee imprime o endereço de memória onde cada elemento do vetor vet está alocado;
+O segundo código retorna um valor como hexadecimal em uppercase e imprime o endereço de memória onde cada elemento do vetor vet está alocado;
 
 
 

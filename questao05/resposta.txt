@@ -1,0 +1,14 @@
+O programa imprime:
+
+1. O valor da iteração do laço, correspondendo a qual posição do vetor está sendo acessado;
+
+2.O valor float guardado dentro da posição i do vetor vet;
+
+3. O conteúdo presente no ponteiro f + i (Corresponde ao mesmo valor que é impresso anteriomente);
+
+4. O endereço de memória em hexadecimal uppercase em que o elemento da posição i do vetor vet está alocado;
+
+5. O endereço de memória do ponteiro f + i em hexadecimal uppercase (Corresponde ao mesmo valor que é impresso anteriomente);
+
+
+As respostas esperadas foram obtidas.

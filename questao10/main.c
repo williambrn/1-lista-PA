@@ -40,6 +40,12 @@ int main()
     printf("\n %p", x5 + 2);
     printf("\n %p", x5 + 3);
 
+    printf("\n");
+    printf("\n Tamanho do char: %lu", sizeof(char));
+    printf("\n Tamanho do int: %lu", sizeof(int));
+    printf("\n Tamanho do short: int: %lu", sizeof(short int));
+    printf("\n Tamanho do float: %lu", sizeof(float));
+    printf("\n Tamanho do double: %lu", sizeof(double));
 
 
     return 0;

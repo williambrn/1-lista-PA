@@ -17,9 +17,7 @@ int main(){
 
   printf("\n %d", *(pulo + 4));
 
-  printf("\n %d", (pulo + 4)); //Builda e executa no codeblocks, mas pode dar erro em outros compiladores;
+  printf("\n %p", (pulo + 2)); //Endereco de memória de pulo + 2;
 
-  printf("\n %d", (pulo + 4)); //Builda e executa no codeblocks, mas pode dar erro em outros compiladores;
-
-
+  printf("\n %p", (pulo + 4)); //Endereco de memória de pulo + 4;
 }

@@ -1,0 +1,2 @@
+    Ponteiro para uma função é um tipo de ponteiro que armazena o endereço de memória de uma função, podendo ser utilizado como parâmetro de chamada da própria função que o mesmo armazena em seu endereço.
+    

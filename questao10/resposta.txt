@@ -1,0 +1,3 @@
+    Comparando as respostas oferecidas pelo programa com as respostas idealizas, os resultados vão de acordo com o que foi idealizado.A princípio, achei que o int teria um intervalo de 2 bytes por ocupar 16 bits de espaço de memória, porém o resultado idealizado só foi encontrado ao usar o tipo de variável short int.
+
+No arquivo main.c está mais detalhado os valores encontrados para a análise e comparação.

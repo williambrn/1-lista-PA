@@ -1,0 +1,32 @@
+Se x for declarado como char (1 byte): 
+
+x + 1 = 4093;
+x + 2 = 4094;
+x + 3 = 4095;
+
+Se x for declarado como int (A variável inteira possuí um intervalo de 4 bytes entre um x e x + 1):
+
+x + 1 = 4096;
+x + 2 = 4100;
+x + 3 = 4104;
+
+Porém, se x for declarado como short int, ocupará um intervalo de 2 bytes:
+
+x + 1 = 4094;
+x + 2 = 4096;
+x + 3 = 4098;
+
+Se x for declarado como float (4 bytes):
+
+x + 1 = 4096;
+x + 2 = 4100;
+x + 3 = 4104;
+
+Se x for declarado como double (8 bytes):
+
+x + 1 = 4100;
+x + 2 = 4108;
+x + 3 = 4116;
+
+Obs: Levando em consideração que o endereço de memória está sendo impresso como decimal.
+

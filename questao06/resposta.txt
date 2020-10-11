@@ -5,7 +5,7 @@ As duas últimas expressões são recebidas por ponteiros;
 
 A expressão *(pulo + 2) sendo impressa como decimal é a única que referencia o valor do terceiro elemento do vetor pulo;
 
-As outras duas expressões (pulo + 2 e pulo + 4) retornam o endereço de memória onde estão guardados os valores do terceiro e quinto elemento do vetor pulo, respectivamente.
+As duas últimas expressões (pulo + 2 e pulo + 4) retornam o endereço de memória onde estão guardados os valores do terceiro e quinto elemento do vetor pulo, respectivamente.
 
 
 As informações acima podem ser verificadas com mais detalhes observando o main.c prensente na pasta;

@@ -1,0 +1,15 @@
+aloha[2] = value é válido;
+
+scanf("%f", &aloha) é válido, porém há um aviso do tipo de argumento;
+
+aloha = value é inválido;
+
+printf("%f", aloha) é válido, porém só imprime 0.000000;
+
+coisas[4][4] = aloha[3] é válido;
+
+coisas[5] = aloha é invalido;
+
+pf = value é inválido. Há incompatibilidade de tipos;
+
+pf = aloha é válido e recebe o endereço de memória do primeiro elemento do vetor aloha;

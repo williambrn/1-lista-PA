@@ -5,9 +5,9 @@ O laço é utilizado para somar o valor de i e percorrer os elementos do vetor;
 O * pega o conteúdo presente no elemento vet + i do vetor;
 
 
-O segundo código apresenta um erro de conversão, pois para %X, que retorna um valor como hexadecimal em uppercase, interpreta o "vet + i" como *int. A função printf acaba imprimindo "lixo" e em hexadecimal uppercase.
+O segundo código retorna um valor como hexadecimal em uppercasee imprime o endereço de memória onde cada elemento do vetor vet está alocado;
 
-Uma possível "correção" foi feita no main.c, onde os elementos do vetor "vet" são impressos em hexadecimal uppercase.
+
 
 
 

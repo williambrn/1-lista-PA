@@ -17,11 +17,5 @@ int main()
         printf("%X ",vet+i);
     }
 
-    printf("\n");
-
-    for(i=0; i<3; i++)
-    {
-        printf("%X ",*(vet+i));
-    }
 }
 

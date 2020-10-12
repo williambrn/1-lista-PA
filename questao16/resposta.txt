@@ -1,0 +1,17 @@
+Utilizando a biblioteca time.h, foram calculados os tempos de execução das funções implementadas na questão 13, 14 e 15 para um mesmo conjunto de valores.
+
+Foram utilizados os seguintes 10 valores aleatórios: [20.7 3.1 10.5 4.2 5.6 6.1 16.2 11.1 17.3 15.5];
+
+Na função order, implementada na questão 13, o tempo de execução médio foi de 0.0055 milessegundos;
+
+Na função qsort, implementada na questão 14, o tempo médio foi de 0.0085 milessegundos;
+
+Na função newsort, implementada na questão 15, o tempo médio foi de 0.007 milessegundos;
+
+
+A função mais rápida foi a order, a primeira função implementada para a questão 13.
+
+
+Para mais detalhes e/ou mais testes os 3 códigos utilizados estão anexados na pasta.
+
+

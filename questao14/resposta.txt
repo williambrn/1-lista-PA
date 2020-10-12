@@ -1,0 +1,17 @@
+O código foi devidamente comentado no arquivo main.c, explicando a função de várias linhas do código; 
+
+Em resumo: 
+
+    A função compare é declarada, utilizando como parâmetro dois ponteiros const void e retornando o devido conteúdo dos ponteiros float(tipo utilizado na questão);
+
+    As variáveis locais foram declaradas dentro da função main, inclusive o ponteiro float x, onde os valores dados pelo usuários serão inseridos;
+
+    A função mallloc aloca n vezes o tamanho de um float para os n valores que serão inseridos em x;
+
+    A função qsort e chamada e seus devidos parâmetros de chamada atribuidos(vetor_valores,quantidade de valores que serão iseridos, tamanho do tipo de variável que cada valor assumirá e a chamada da função compare definida mais acima no código);
+
+    Dois laços são utilizados. Um para armazenar os valores inseridos pelo usuário em cada posição i do vetor x e outro para "montar" e imprimir o vetor ordenado pela função qsort;  
+
+    Por último, o função free é chamada para liberar a memória dinâmica que foi alocada para x com a função malloc;
+
+    
